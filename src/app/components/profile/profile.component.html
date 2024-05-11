@@ -1,0 +1,37 @@
+<section id="profile">
+    <div class="section__pic-container">
+      <img [src]="Images.MY_PROFILE_PIC_2" alt="Nyi Zeya profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Nyi Zeya</h1>
+      <p class="section__text__p2">Fullstack Developer</p>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2"
+          download="Nyi Zeya's Resume"
+          onclick="window.open('/assets/Resume.pdf')"
+        >
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <a href="https://github.com/nyizeya" target="_blank" rel="noopener noreferrer">
+          <img
+          [src]="Images.LINKEDIN"
+            alt="My LinkedIn profile"
+            class="icon"/>
+        </a>
+        <a href="https://github.com/nyizeya" target="_blank" rel="noopener noreferrer">
+          <img
+            [src]="Images.GITHUB"
+            alt="My Github profile"
+            class="icon"/>
+        </a>
+        
+      </div>
+    </div>
+</section>
